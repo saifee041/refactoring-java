@@ -1,19 +1,19 @@
 import java.util.List;
 
 public class Customer {
-    private String name;
-    private List<MovieRental> rentals;
+    private String customerName;
+    private List<MovieRental> moviesRented;
 
-    public Customer(String name, List<MovieRental> rentals) {
-        this.name = name;
-        this.rentals = rentals;
+    public Customer(String customerName, List<MovieRental> moviesRented) {
+        this.customerName = customerName;
+        this.moviesRented = moviesRented;
     }
 
-    public String getName() {
-        return name;
+    public String getCustomerName() {
+        return customerName;
     }
 
-    public List<MovieRental> getRentals() {
-        return rentals;
+    public List<MovieRental> getMoviesRented() {
+        return moviesRented;
     }
 }
