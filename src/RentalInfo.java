@@ -1,7 +1,3 @@
-import java.util.Arrays;
-import java.util.HashMap;
-import java.util.List;
-
 public class RentalInfo {
 
 	private double amountDue = 0;
